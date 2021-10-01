@@ -2,7 +2,7 @@
 
 ![Build Status](https://github.com/wheresvic/mongoose-field-encryption/workflows/ci-test/badge.svg) [![Coverage Status](https://coveralls.io/repos/github/wheresvic/mongoose-field-encryption/badge.svg?branch=master)](https://coveralls.io/github/wheresvic/mongoose-field-encryption?branch=master)
 
-A simple symmetric encryption plugin for individual fields. The goal of this plugin is to encrypt data but still allow searching over fields with string values. This plugin relies on the Node `crypto` module. Encryption and decryption happen transparently during save and find.
+A zero dependency simple symmetric encryption plugin for individual fields. The goal of this plugin is to encrypt data but still allow searching over fields with string values. This plugin relies on the Node `crypto` module. Encryption and decryption happen transparently during save and find.
 
 While this plugin works on individual fields of any type, note that for non-string fields, the original value is set to undefined after encryption. This is because if the schema has defined a field as an array, it would not be possible to replace it with a string value.
 
