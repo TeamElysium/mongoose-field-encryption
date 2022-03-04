@@ -1,5 +1,5 @@
 {
-  "name": "mongoose-field-encryption",
+  "name": "@teamelysium/mongoose-field-encryption",
   "version": "4.0.3",
   "description": "A simple symmetric encryption plugin for individual fields.",
   "main": "lib/mongoose-field-encryption.js",
